@@ -25,11 +25,11 @@ jobs:
       run: npm ci
     - name: Build (npm run build)
       run: npm run build -- --prod
-    - name: Deploy 🚀
+    - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: build # The folder the action should deploy.
+        FOLDER: dist # The folder the action should deploy.
         CLEAN: true # Automatically remove deleted files from the deploy branch
         SINGLE_COMMIT: true # keep only a single commit on the deploy branch
