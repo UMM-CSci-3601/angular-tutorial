@@ -4,7 +4,10 @@ This is based on the [Getting started with Angular](https://angular.io/start) gu
 
 ## :exclamation: TODOs for this README
 
-- [ ] explain how to in
+- [ ] Explain how to setup and run the project referencing the original tutorial and where to substitute things here
+- [ ] Explain how to create components and services when it asks you to in the tutorial to use the StackBlitz special menus, we want to demonstrate using `ng generate` commands here.
+- [ ] Rubric/grading things?
+- [ ] Using the GH Classroom feedback PR
 
 
 ## Setup
