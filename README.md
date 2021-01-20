@@ -35,3 +35,7 @@ The first time you run your Angular project, you will need to run `npm install` 
 **`ng serve`**. This will trigger the various tools in the
 client side portion of the project to build and host your client side
 application on their own little web-server, available by default at [`localhost:4200`](http://localhost:4200/). If the development server is running, you will be able to see the 
+
+When you open it in the browser you should be greeted with something that looks like this:
+
+![image](https://user-images.githubusercontent.com/1300395/105233127-07f4b400-5b2f-11eb-9c6f-3f51594f684e.png)
