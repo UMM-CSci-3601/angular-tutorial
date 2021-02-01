@@ -34,6 +34,32 @@ When you open it in the browser you should be greeted with something that looks 
 
 ![image](https://user-images.githubusercontent.com/1300395/105233127-07f4b400-5b2f-11eb-9c6f-3f51594f684e.png)
 
+## Setting up GitHub Pages
+
+We have setup a GitHub Actions workflow to automatically build and deploy whatever is on the `main` branch to GitHub Pages. The part you need to do is enable GitHub pages on this repo just like in Lab 1.
+
+On GitHub, you'll need to visit the *settings* for your repository and change
+the *GitHub Pages* settings. Under the "Source" section, you'll need to select
+the branch `main`, leave everything else at their defaults, and save your settings.
+
+> Doing this will 'host' your website, specifically the version that is on
+> your `main` branch. This means that everything you push to `main`
+> will, in a sense, be 'published' - hence it is important that you practice
+> responsible version control and only push completed features to your `main`
+> branch.
+>
+> When you publish your site to GitHub pages, GitHub will display the URL
+> where you can find your published site. The primary repo we use to manage
+> changes to this lab across semesters is published
+> at <http://umm-csci-3601.github.io/angular-tutorial/>;
+> yours will be at a different URL but should look somewhat similar.
+>
+> :bangbang: Once you have that URL, please include it in the "Website" box in the
+> description at the top of your GitHub project page. Click the "Edit" button on the
+> right hand side (just under "Settings") and that should give you a "Description" and
+> a "Website" box; paste the URL into the "Website" box. That will make it a lot easier
+> for us to go through all the projects and see your work.
+
 ---
 
 ## Follow along with the tutorial
