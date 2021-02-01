@@ -67,7 +67,7 @@ the branch `main`, leave everything else at their defaults, and save your settin
 **Make sure you commit often with good commit messages as you go
 through the tutorial.**
 
-Now your job now is to go through [the "Getting started with Angular" tutorial](https://angular.io/start), up to (but not including) the last section ("Deploying an application").
+Now your job now is to go through [the "Getting started with Angular" tutorial](https://angular.io/start), up to (but not including) the last section ("Deploying an application"). You can skip the initial "Create the sample project" section and instead clone this repo and open it in VS Code and run it as described above. You will start with "Create the product list".
 
 > You might want to read that last section on deployment, but our
 > deployment mechanism in this class will be totally different than
