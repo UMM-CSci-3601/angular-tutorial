@@ -85,7 +85,7 @@ use `ng generate` in the terminal.
 For example, roughly in the middle of the first section of the tutorial,
 you encounter this:
 
-![StackBlitz generate component menu](images/StackBlitz_component_menu.png)
+![StackBlitz generate component menu](https://user-images.githubusercontent.com/1300395/106520616-aaebed00-64a2-11eb-8a51-a11907bd486e.png)
 
 We will instead generate this new component in the terminal using:
 
