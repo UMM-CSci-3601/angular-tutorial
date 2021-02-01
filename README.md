@@ -38,7 +38,7 @@ When you open it in the browser you should be greeted with something that looks 
 
 We have setup a GitHub Actions workflow to automatically build and deploy whatever is on the `main` branch to GitHub Pages.
 
-GitHub pages will likely already be enabled but if it is not, follow these instructions:
+GitHub Pages will likely already be enabled but if it is not, follow these instructions:
 
 > On GitHub, you'll need to visit the *settings* for your repository and change
 > the *GitHub Pages* settings. Under the "Source" section, you'll need to select
