@@ -45,7 +45,7 @@ the branch `gh-pages`, leave everything else at their defaults, and save your se
 > When you publish your site to GitHub pages, GitHub will display the URL
 > where you can find your published site. The primary repo we use to manage
 > changes to this lab across semesters is published
-> at <http://umm-csci-3601.github.io/angular-tutorial/>;
+> at <https://umm-csci-3601.github.io/angular-tutorial/>;
 > yours will be at a different URL but should look somewhat similar.
 >
 > :bangbang: Once you have that URL, please include it in the "Website" box in the
