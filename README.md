@@ -1,19 +1,6 @@
 # Angular Tutorial
 
 This is based on the [Getting started with Angular](https://angular.io/start) guide. 
-
-## :exclamation: TODOs for this README
-
-- [ ] Explain how to setup and run the project referencing the original tutorial and where to substitute things here
-- [ ] Explain how to create components and services when it asks you to in the tutorial to use the StackBlitz special menus, we want to demonstrate using `ng generate` commands here.
-- [ ] Rubric/grading things?
-- [ ] Using the GH Classroom feedback PR
-- [ ] Running `ng lint`
-- [ ] Enabling GitHub Pages for the `gh-pages` branch
-  - [ ] Adding the link to the repo website field
-  - [ ] Putting the link in the feedback PR
-
-
 ## Setup
 
 ### Cloning the project in GitKraken
