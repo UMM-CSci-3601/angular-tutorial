@@ -36,18 +36,16 @@ When you open it in the browser you should be greeted with something that looks 
 
 ## Setting up GitHub Pages
 
-We have setup a GitHub Actions workflow to automatically build and deploy whatever is on the `main` branch to GitHub Pages. The part you need to do is enable GitHub pages on this repo just like in Lab 1.
+We have setup a GitHub Actions workflow to automatically build and deploy whatever is on the `main` branch to GitHub Pages.
 
-On GitHub, you'll need to visit the *settings* for your repository and change
-the *GitHub Pages* settings. Under the "Source" section, you'll need to select
-the branch `main`, leave everything else at their defaults, and save your settings.
+GitHub pages will likely already be enabled but if it is not, follow these instructions:
 
-> Doing this will 'host' your website, specifically the version that is on
-> your `main` branch. This means that everything you push to `main`
-> will, in a sense, be 'published' - hence it is important that you practice
-> responsible version control and only push completed features to your `main`
-> branch.
->
+> On GitHub, you'll need to visit the *settings* for your repository and change
+> the *GitHub Pages* settings. Under the "Source" section, you'll need to select
+> the branch `gh-pages`, leave everything else at their defaults, and save your settings.
+
+Then, setup the link:
+
 > When you publish your site to GitHub pages, GitHub will display the URL
 > where you can find your published site. The primary repo we use to manage
 > changes to this lab across semesters is published
