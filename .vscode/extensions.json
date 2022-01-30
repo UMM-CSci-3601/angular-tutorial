@@ -12,10 +12,6 @@
     // https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
     "EditorConfig.EditorConfig",
 
-    // Bracket Pair Colorizer 2
-    // https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
-    "CoenraadS.bracket-pair-colorizer-2",
-
     // Markdown All in One
     // https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
     "yzhang.markdown-all-in-one",
@@ -28,9 +24,9 @@
     // https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
     "streetsidesoftware.code-spell-checker",
 
-    // TSLint
-    // https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
-    "ms-vscode.vscode-typescript-tslint-plugin",
+    // ESLint
+    // https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+    "dbaeumer.vscode-eslint",
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
   "unwantedRecommendations": []
