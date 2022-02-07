@@ -131,12 +131,13 @@ get compiled and loaded when you run your app.
 
 We've added support to this repository for ESLint, a tool that provides
 some basic code quality checks. Since you're doing this lab on your own,
-we haven't set up automated checks, but that doesn't mean you shouldn't
+we haven't set up automated checks that block you from pushing icky things to `main`, but that doesn't mean you shouldn't
 keep an eye on the quality of your code. You should probably run
 `ng lint` (in the terminal at the top level of the repo) every now and
 then to make sure that you're not introducing "uglies" along the way.
 
-> You probably should run `ng lint` before each commit as a way of
+> GitHub Actions will perform an `ng lint` check each time you commit,
+> so you probably should run `ng lint` before each commit as a way of
 > trying to keep your public-facing repo nice and shiny.
 
 *Absolutely* ask questions if `ng lint` complains about something
