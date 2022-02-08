@@ -125,7 +125,7 @@
   },
   "defaultProject": "angular-tutorial",
   "cli": {
-    "analytics": "35d7ed37-123d-4764-8cdd-7ed9b693a97e",
+    "analytics": false,
     "defaultCollection": "@angular-eslint/schematics"
   }
 }
