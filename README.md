@@ -5,7 +5,7 @@ This is based on the [Getting started with Angular](https://angular.io/start) gu
 - [Setup](#setup)
   - [Cloning the project in GitKraken](#cloning-the-project-in-gitkraken)
   - [Open the project in VS Code](#open-the-project-in-vs-code)
-- [Using a current enough version of Node](#using-a-current-enough-version-of-node)
+  - [Using a current enough version of Node](#using-a-current-enough-version-of-node)
 - [Running your project](#running-your-project)
 - [Setting up GitHub Pages](#setting-up-github-pages)
 - [Follow along with the tutorial](#follow-along-with-the-tutorial)
@@ -33,7 +33,7 @@ Don't worry if you don't get the dialog, it is probably because you already have
 
 Like in previous labs, click "Install All" to automatically install them.
 
-## Using a current enough version of Node
+### Using a current enough version of Node
 
 We don't have a very new version of Node running in the lab right now, and that may also be something for you to manage on your own setup, so I'll provide a brief walk through of how to make this work on the machines in the lab. We can see what version of Node is running by typing `node --version` in the terminal. The current version is not new enough (mine said `v12.22.12`). I want to use Node Version Manager (nvm) to manage my version of Node. You can see if nvm is already installed by typing `nvm --version` in the terminal (mine said `bash: nvm: command not found`). There are [instructions for installing and updating nvm](https://github.com/nvm-sh/nvm#install--update-script), but I will give a short version of exactly what you need to type in our lab to make it work.
 
