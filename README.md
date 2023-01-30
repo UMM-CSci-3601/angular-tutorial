@@ -5,6 +5,7 @@ This is based on the [Getting started with Angular](https://angular.io/start) gu
 - [Setup](#setup)
   - [Cloning the project in GitKraken](#cloning-the-project-in-gitkraken)
   - [Open the project in VS Code](#open-the-project-in-vs-code)
+  - [Using a current enough version of Node](#using-a-current-enough-version-of-node)
 - [Running your project](#running-your-project)
 - [Setting up GitHub Pages](#setting-up-github-pages)
 - [Follow along with the tutorial](#follow-along-with-the-tutorial)
@@ -32,6 +33,23 @@ Don't worry if you don't get the dialog, it is probably because you already have
 
 Like in previous labs, click "Install All" to automatically install them.
 
+### Using a current enough version of Node
+
+We don't have a very new version of Node running in the lab right now, and that may also be something for you to manage on your own setup, so I'll provide a brief walk through of how to make this work on the machines in the lab. We can see what version of Node is running by typing `node --version` in the terminal. The current version is not new enough (mine said `v12.22.12`). I want to use Node Version Manager (nvm) to manage my version of Node. You can see if nvm is already installed by typing `nvm --version` in the terminal (mine said `bash: nvm: command not found`). There are [instructions for installing and updating nvm](https://github.com/nvm-sh/nvm#install--update-script), but I will give a short version of exactly what you need to type in our lab to make it work.
+
+Copy and paste these commands in a terminal window:
+
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`
+
+`export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+`
+
+Once you have finished those two steps, typing `command -v nvm` in the terminal should result in showing you the response `nvm`.
+
+Type `nvm install --lts` in the terminal. Once the installation is done, you should be able to type `node --version` and see `v18.13.0` and `nvm --version` and see `0.39.3`. Once that is true, you will be able to continue in the lab. If you are working on another system, you might need to do something slightly different as described here: [instructions for installing and updating nvm](https://github.com/nvm-sh/nvm#install--update-script).
+
 ## Running your project
 
 The first time you run your Angular project, you will need to run `npm install` so that all the dependencies managed by npm will be installed. Once you have successfully run `npm install`, in order to serve up the project, you will type
@@ -45,7 +63,7 @@ When you open it in the browser you should be greeted with something that looks 
 
 ## Setting up GitHub Pages
 
-We have setup a GitHub Actions workflow to automatically build and deploy whatever is on the `main` branch to GitHub Pages (using the `gh-pages` branch to store the built version). The part you need to do is enable GitHub pages on this repo just like in Lab 1.
+We have setup a GitHub Actions workflow to automatically build and deploy whatever is on the `main` branch to GitHub Pages (using the `gh-pages` branch to store the built version). The part you need to do is enable GitHub pages on this repo.
 
 On GitHub, you'll need to visit the *settings* for your repository and change
 the *GitHub Pages* settings. Under the "Pages" section, you'll need to select
